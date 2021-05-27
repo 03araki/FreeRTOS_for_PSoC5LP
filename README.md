@@ -11,3 +11,9 @@ PSoC5LP CY8CKIT-059 で FreeRTOS を使ってマルチタスク処理を実行�
 
 ## 2. プロジェクト作成準備
 
+
+## 参考
+
+- https://qiita.com/Tanba28/items/373f6ab8ef21a4cd964b
+- http://idken.net/posts/2017-09-23-freertos_status/
+- https://iotexpert.com/freertos-psoc-examples/
