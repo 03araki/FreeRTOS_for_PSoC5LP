@@ -5,4 +5,5 @@ PSoC5LP CY8CKIT-059 で FreeRTOS を使ってマルチタスク処理を実行�
 ## 1. 実行に必要なもの
 
 - PSoC5LP CY8CKIT-059
-- PSoC Creator (https://japan.cypress.com/products/psoc-creator-integrated-design-environment-ide よりダウンロード．Cypress への登録必要．)
+- PSoC Creator (https://japan.cypress.com/products/psoc-creator-integrated-design-environment-ide よりダウンロード．Cypress への登録必要．本プログラムの開発は PSoC Creator 4.4 で行った．)
+- FreeRTOS (https://freertos.org/index.html の「Download FreeRTOS」からダウンロード．FreeRTOS 202104.00
