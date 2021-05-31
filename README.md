@@ -62,10 +62,13 @@ PSoC5LP CY8CKIT-059 で FreeRTOS を使ってマルチタスク処理を実行�
 ２．作成されたフォルダ内 (main.c がある場所) に前章で準備した FreeRTOS のファイルをフォルダごとコピー
 
 ３．「Workspace Explorer」の Project (上から2番目?) で右クリックし，[Add] - [New Folder] で新しいフォルダを作成し，「FreeRTOS」という名前にしておく
+![Fig.1](https://github.com/03araki/FreeRTOS_for_PSoC5LP/blob/images/image01.png)
 
 ４．作成した「FreeRTOS」フォルダを選択して右クリックし，[Add] - [Existing Item...] を選択して，２．でコピーしたフォルダ内のファイルをすべて選択して追加
+![Fig.2](https://github.com/03araki/FreeRTOS_for_PSoC5LP/blob/images/image02.png)
 
 ５．メニューバーの [Project] - [Build Settings...] を選択し，表示されたダイアログの [ARM GCC ...] - [Compiler] - [General] 内の「Additional Include Directories」に「.\FreeRTOS」を追加して OK ボタンを押す．(２．でコピーした FreeRTOS フォルダをInclude Directory に含める)
+![Fig.3](https://github.com/03araki/FreeRTOS_for_PSoC5LP/blob/images/image03.png)
 
 FreeRTOS の使い方はサンプルコードや FreeRTOS のサイト (https://freertos.org/index.html) を参照すること．
 
